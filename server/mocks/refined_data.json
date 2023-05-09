@@ -1,0 +1,20 @@
+[
+  {
+    "email": "jdoe@babbel.com",
+    "name": "Jane Doe",
+    "type": "initial",
+    "domain": "babbel.com"
+  },
+  {
+    "email": "jayarun@linkedin.com",
+    "name": "Jay Arun",
+    "type": "firstname_lastname",
+    "domain": "linkedin.com"
+  },
+  {
+    "email": "davidstein@google.com",
+    "name": "David Stein",
+    "type": "firstname_lastname",
+    "domain": "google.com"
+  }
+]

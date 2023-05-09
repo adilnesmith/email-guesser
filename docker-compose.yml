@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+
+  backend:
+    container_name: babbel-assignment
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+
+  reactapp:
+    container_name: email-guesser-frontend
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      - REACT_APP_BE_URL=http://localhost:8000
